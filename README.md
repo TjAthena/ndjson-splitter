@@ -1,6 +1,6 @@
-# WastaBin — split large newline-delimited JSON files
+# NDJSON Splitter
 
-Lightweight utility to split very large newline-delimited JSON (NDJSON) files into multiple smaller files. This repository contains a small Python script, `split_files.py`, used to divide large datasets (for example the Yelp review dataset) into several parts for easier processing.
+A lightweight, memory-efficient Python script to split large newline-delimited JSON (NDJSON) files into smaller, manageable parts. This is useful for processing datasets that are too large to fit into memory.
 
 ## Quick links
 - Original dataset (example used by the script): https://business.yelp.com/data/resources/open-dataset/
